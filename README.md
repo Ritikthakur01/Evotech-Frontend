@@ -41,6 +41,8 @@ git clone https://github.com/Ritikthakur01/Evotech-Frontend
 2. npm i
 3. create .env file
 
+```
+
 ## Usage
 
 1. Start the backend server:
