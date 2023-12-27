@@ -1,5 +1,5 @@
 {
-  "proxy": "http://localhost:4000",
+  "proxy": "https://evotech-60nz.onrender.com",
   "name": "frontend",
   "version": "0.1.0",
   "private": true,
