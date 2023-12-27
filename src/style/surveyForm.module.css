@@ -1,0 +1,92 @@
+.form_container{
+    width: 100%;
+    height: calc(100vh - 74.4px);
+    background-color: #657a95;
+    display: grid;  
+    place-items: center;
+}
+.form_mainContainer{
+    padding: 5%;
+    width: 60%;
+    border-radius: 28px;
+    background: #657a95;
+    box-shadow:  7px 7px 14px #414e5f,
+                 -7px -7px 14px #89a6cb;
+}
+form{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    
+    flex-wrap: wrap;
+    justify-content: space-around;
+    position: relativeI;
+}
+.form_control{
+    width: 40%;
+    padding: 3%;
+    position: relative;
+}
+input{
+    border: none;
+    border-bottom: 2px solid #344760 ;
+    outline: none;
+    background-color: transparent;
+    
+    width: 60%;
+    color: rgb(0, 0, 0);
+    font-size: 1em;
+    padding: 2% 5%;
+}
+::placeholder { /* Most modern browsers support this now. */
+    color:    rgb(242, 242, 242);
+ }
+
+select{
+    position: relative;
+    left: 13%;
+    appearance: none;
+    -webkit-appearance: none;
+    font-size: 1em;
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid #344760;
+    
+    height: 2.25em;
+    outline: none;
+    }
+    
+    
+label{
+    position: absolute;
+    left: 23%;
+    pointer-events: none;
+    font-weight: 400;
+    transition: all .3s ease;
+    color: #ececec;
+    }
+
+input:not([type="checkbox"]):focus + label, select:focus + label{
+            
+            color: #0763be;
+}
+
+.btn{
+    padding: 5px 13px;
+    font-size: 1.1rem;
+    color: rgb(238, 238, 238);
+    border-radius: 15px;
+    border: 1px solid white;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+    position: absolute;
+    background-color: transparent;
+    bottom: 23%;
+    left: 69%;
+}
+
+
+
+
+ 
