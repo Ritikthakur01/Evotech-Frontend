@@ -9,10 +9,6 @@ This project is a MERN (MongoDB, Express.js, React.js, Node.js) stack applicatio
 - [Installation](#installation)
 - [Usage](#usage)
 - [Technologies Used](#technologies-used)
-- [Folder Structure](#folder-structure)
-- [Contributing](#contributing)
-- [License](#license)
-- [Acknowledgments](#acknowledgments)
 
 ## Introduction
 
@@ -37,15 +33,29 @@ Before you begin, ensure you have the following installed:
 
 ```bash
 git clone https://github.com/Ritikthakur01/Evotech-Frontend
+```
 
 2. npm i
 3. create .env file
 
-```
-
 ## Usage
 
 1. Start the backend server:
+```bash
+cd backend
+npm start
+```
+2. Start the frontend development server:
+```bash
+cd ../frontend
+npm start
+```
+  Visit http://localhost:3000 in your browser to access the application.
 
 
+## Technologies Used
+* Node.js
+* Express.js
+* React.js
+* MongoDB
 
