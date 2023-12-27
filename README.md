@@ -19,6 +19,7 @@ This project provides a simple and scalable solution for collecting and storing 
 - User-friendly form for inputting information.
 - Backend API to handle form submissions and interact with the MongoDB database.
 - MongoDB database to store user information securely.
+- Having notified feature on submitting form successfully.
 
 ## Prerequisites
 
