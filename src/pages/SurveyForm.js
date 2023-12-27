@@ -29,7 +29,7 @@ const SurveyForm = () => {
         }
         setLoading(true)
 
-        const setData = await fetch("/formSubmission",{
+        const setData = await fetch("https://evotech-60nz.onrender.com/formSubmission",{
             method:"POST" ,
             headers:{
                 "Content-Type":"application/json"
