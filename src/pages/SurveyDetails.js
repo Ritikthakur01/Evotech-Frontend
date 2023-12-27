@@ -8,7 +8,7 @@ const SurveyDetails = () => {
 
     useEffect(()=>{
         const fetchData = async ()=>{
-            const res = await fetch('/getAllData',{
+            const res = await fetch('https://evotech-60nz.onrender.com/getAllData',{
                 method:"GET"
             }
             );
